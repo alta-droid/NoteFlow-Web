@@ -1,0 +1,6 @@
+{
+  "name": "NoteFlow",
+  "description": "A privacy-first, local-first markdown note-taking workspace with bring-your-own-key (BYOK) AI integrations, local context injection (RAG), and a 5:00 AM Focus Mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
