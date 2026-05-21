@@ -42,10 +42,10 @@ jobs:
     - name: Build APK
       run: |
         cd android
-        ./gradlew assembleRelease --stacktrace
+        ./gradlew assembleDebug --stacktrace
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: NoteFlow-APK
-        path: android/app/build/outputs/apk/release/*.apk
+        path: android/app/build/outputs/apk/debug/*.apk
